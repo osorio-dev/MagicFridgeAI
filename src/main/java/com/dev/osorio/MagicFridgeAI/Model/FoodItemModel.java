@@ -16,8 +16,7 @@ public class FoodItemModel {
     private Integer amount;
     private LocalDateTime validity;
 
-    public FoodItemModel(Long id, String name, String category, Integer amount, LocalDateTime validity) {
-        this.id = id;
+    public FoodItemModel(String name, String category, Integer amount, LocalDateTime validity) {
         this.name = name;
         this.category = category;
         this.amount = amount;
